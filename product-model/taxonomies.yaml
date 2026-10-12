@@ -1,0 +1,19 @@
+{
+  "scenarioKinds": [
+    {
+      "id": "primary",
+      "name": "Primary",
+      "description": "Established successful or intentionally acknowledged behavior."
+    },
+    {
+      "id": "validation",
+      "name": "Validation",
+      "description": "Invalid input, unavailable eligibility or refused operation."
+    },
+    {
+      "id": "edge",
+      "name": "Edge",
+      "description": "Conflict, dependency failure or exceptional persistence outcome."
+    }
+  ]
+}

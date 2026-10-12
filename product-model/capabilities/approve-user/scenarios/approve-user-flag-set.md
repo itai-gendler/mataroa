@@ -1,0 +1,57 @@
+---
+{
+  "kind": "primary",
+  "routes": {
+    "r-users": "R USERS"
+  },
+  "steps": [
+    {
+      "text": "The administrator submits approval for the selected identity.",
+      "kind": "actor",
+      "entities": [],
+      "actor": "administrator",
+      "contexts": {
+        "r-users": {
+          "place": "web::restricted::users"
+        }
+      }
+    },
+    {
+      "text": "The selected identity’s approval flag becomes true.",
+      "kind": "product",
+      "entities": [
+        {
+          "entity": "account",
+          "effect": "changes",
+          "facts": [
+            "Approved"
+          ]
+        }
+      ],
+      "contexts": {
+        "r-users": {
+          "place": "web::restricted::users"
+        }
+      },
+      "actor": "administrator"
+    }
+  ],
+  "references": [
+    {
+      "kind": "code",
+      "role": "implementation",
+      "target": "main/views/moderation.py#user_approve"
+    }
+  ]
+}
+---
+
+# Flag set
+
+## Trigger
+
+Flag set: Approve user.
+
+## Outcome
+
+The selected identity’s approval flag becomes true.
