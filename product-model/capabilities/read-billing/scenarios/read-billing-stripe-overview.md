@@ -91,7 +91,7 @@
 
 ## Trigger
 
-A non-grandfathered author without a Monero address opens Billing with an existing processor customer.
+The author opens Billing with an existing processor customer.
 
 ## Outcome
 

@@ -17,7 +17,7 @@
       }
     },
     {
-      "text": "The Monero branch presents the address, 0.05 XMR price and stated one-hour allowance; verification/activation is not established.",
+      "text": "Billing presents the current plan, the 0.05 XMR yearly price and the Monero address; a Free account is asked to send 0.05 XMR and allow one hour for verification. No processor subscription or payment history is shown.",
       "kind": "product",
       "entities": [
         {
@@ -52,8 +52,8 @@
 
 ## Trigger
 
-Monero: Read billing.
+An author with a Monero address opens Billing.
 
 ## Outcome
 
-The Monero branch presents the address, 0.05 XMR price and stated one-hour allowance; verification/activation is not established.
+Billing presents the Monero payment form: plan, 0.05 XMR yearly price and address. Verification and activation are not established.

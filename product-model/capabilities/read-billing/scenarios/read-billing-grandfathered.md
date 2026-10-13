@@ -17,7 +17,7 @@
       }
     },
     {
-      "text": "The grandfathered branch presents that entitlement without the ordinary processor overview.",
+      "text": "Billing presents the account as on the Grandfather Plan for good, with no processor subscription or payment history.",
       "kind": "product",
       "entities": [
         {
@@ -52,8 +52,8 @@
 
 ## Trigger
 
-Grandfathered: Read billing.
+A grandfathered author opens Billing.
 
 ## Outcome
 
-The grandfathered branch presents that entitlement without the ordinary processor overview.
+Billing presents the Grandfather Plan, with no processor subscription or payment history.

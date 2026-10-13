@@ -51,4 +51,4 @@
 
 # Billing
 
-Current plan and external subscription status, paid-period dates, saved methods and Premium invoice links; grandfathered and Monero branches have their own outcomes.
+Current plan and external subscription status, paid-period dates, saved methods and Premium invoice links; Grandfather Plan and Monero accounts see their own forms instead.
